@@ -65,6 +65,19 @@ Create an array of five mobile phone objects by reading the data from the user. 
         --> For student B, it has to display the faculty aaa & bbb.
 
 
+## Exception Handling
+* Create a program to take input from user as 1/2/3, if user enters 1, display info about Arithmetic Exception, 2 and 3 for Null pointer exception and Array index out of bound exception, respectively. Use, Try, Catch block for each exception individually. -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/4b951229781119f4872733d52708b7ed6f9b81b5/exception_handling/userInput_tryCatch.java)
+
+* Professors are allowed to enter marks for students. Professors can enter only marks between 0 and 100. Anything entered below 0 or above 100 is considered to be an exception.
+Write a program that receives an array of marks from Professor. If the marks fail to satisfy the criteria then handle them as exceptions. Apply Exception handling where ever necessary in this program. -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/4b951229781119f4872733d52708b7ed6f9b81b5/exception_handling/professorMarksException.java)
+
+* Create a user defined exception class by extending exception class to handle two kind of scenario, where 
+            
+            (1) input cannot be zero or negative. 
+            (2) input cannot be in the range 50 to 100 
+  Throw object of user defined exception class and handle it by using nested try block with specific exceptions catch block. Also define finally block in the program.  -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/4b951229781119f4872733d52708b7ed6f9b81b5/exception_handling/senarioExceptionCatch.java)
+
+
 ## String & Arrays
 * Write a Method that receives a jagged array containing marks scored by a student in various semesters. For instance the marks in the jagged array are as shown below
 
