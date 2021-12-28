@@ -1,4 +1,10 @@
 # Java
+## File Handling
+* Write a Java Program to Reverse the Contents of a File and Print it (Use FileInputStream and FileOutputStream) -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/a37e0c01a05081cd44d39c50e7f390694475aa4a/file_handling/DataReverse_FileinputStream.java)
+
+* Write a Java Program to read and write English alphabets(A-Z) into a file and read it from the console(Use Buffered StreamReader and Writer) -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/a37e0c01a05081cd44d39c50e7f390694475aa4a/file_handling/Alphabets_BufferStream.java)
+
+
 ## Class-Objects, Static & Abstracts
 * Consider the class for a course given below
     
