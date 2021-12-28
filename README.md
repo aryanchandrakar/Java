@@ -1,4 +1,24 @@
 # Java
+## Multi-threaded Filehandling
+* Create Threads that will perform the following: -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/442df35a5674fab78999fccee83df740ccc5f411/multi_Thread_fileHandling/PrimeFile_File_Multithread.java)
+
+        Thread 1 - Writes all prime numbers between 1 and 100 to the file file1.txt
+        Thread2-Writes all prime numbers between 101 and 200 to the file2.txt
+        (Write operations to the files should be paused for 1 second after each write.)
+        Thread3- Reads and displays prime numbers from file1.txt
+        Thread4- Reads and displays prime numbers from file2.txt
+        Thread and Thread4 should start the read operations after the write operations to the file is complete. 
+        (Use DataOutputStream and DatainputStream for the file write and read operations)
+
+* Create threads that will perform the following: -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/442df35a5674fab78999fccee83df740ccc5f411/multi_Thread_fileHandling/StopWords_multifiles.java)
+
+        Thread1- Reads all stop words ("a","and","the" are considered as stop words here)from the file file1.txt 
+                and displays number of times each stop word occurs in the file.
+        Thread2- Reads all words other than stop words from the file2.txt and displays number of times the word that start with Character H is part of the file.
+        Tread3- displays Thanks for using our software to the user after the file read operations in Thread1 and Thread2 is complete.
+Use Scanner object to perform file reads and set the Priority for Thread1 as 3, Thread 2 as 2 and Thread3 as 1 in your code. 
+
+
 ## Inter-Thread Communication
 * Consider a Course Registration Class given below that has the following data members -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/d00570cced84c720e1a84359ddb2fdce7b026ae2/interthread_comm/CourseRegistration_InterThreadComm.java)
 
