@@ -29,7 +29,40 @@ Create an array of five mobile phone objects by reading the data from the user. 
 
 
 ## Collections
+* Write a java program for the following:Make an arraylist containing a few Strings. Sort it by -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/2e80979261154f1bb65b2e353d89752aa6b0d3fd/collections/String_ArrayList_collection.java)
 
+        • Length (i.e., shortest to longest) 
+        • Reverse length (i.e., longest to shortest) 
+        • Alphabetically by the first character only 
+        • Strings that contain "e" first, everything else second. For now, put the code directly in the Lambda 
+
+* Write a java program using Lambda to "capitalize" a string. Change the first letter of each word in the string to upper case (if it is not already upper case). For example, a capitalized version of "vellore institute of technology" is "Vellore Institute Of Technology". Write a method named printCapitalized that will print a capitalized version of a string to standard output. The string to be printed should be a parameter to the method. Test your method with a main routine that gets a line of input from the user and applies the method to it. -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/2e80979261154f1bb65b2e353d89752aa6b0d3fd/collections/CapitalizeFirstChar_Lambda_Collection.java)
+
+* Write a java program to create class Books with the data members book name, author, price, type(fiction, comic, cooking). Use input methods to get the input values. Create three array list (fiction, comic and cooking). -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/2e80979261154f1bb65b2e353d89752aa6b0d3fd/collections/Fiction_ArrayList_Collection.java)
+
+       a. Depending upon the type of the book, insert the book object into the respective list. 
+       b. Display the list of books in each type. 
+       c. Sort the list of books in each list with respect to their book name. 
+       d. Display the min and max priced books of each list.
+
+* Assume only a maximum of 3 courses can be registered by a student for week end semester classes. Create a hashmap 'h1' with 'n' key-value pairs where keys are the names of students and values are the courses registered by them. Create another hashmap 'h2' with 'm'key-value pairs where keys are the names of courses offered for B.Tech and values are the names of faculty handling the courses. Write appropriate code to -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/2e80979261154f1bb65b2e353d89752aa6b0d3fd/collections/courseFaculty_HashMap.java)
+
+        - Add or remove a student from h1 
+        - Iterate over the maps and display the key-value pairs stored in them 
+        - Given a student name, fetch the names of all those who teach him/her Eg, if the elements of h1 are
+        | Stud name     | Course Registered  | 
+        | ------------- |:-------------------|
+        | A             | Python, maths, C   | 
+        | B             | C, C++             |   
+        | C             | physics, chemistry |
+        
+        | Course name   | Faculty           | 
+        | ------------- |:------------------|
+        | C             | aaa               | 
+        | C++           | bbb               |   
+        | Java          | ccc               |
+        | Python        | ddd               |
+        --> For student B, it has to display the faculty aaa & bbb.
 
 
 ## String & Arrays
