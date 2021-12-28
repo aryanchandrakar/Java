@@ -1,4 +1,26 @@
 # Java
+## Inter-Thread Communication
+* Consider a Course Registration Class given below that has the following data members
+
+        CourseName
+        Faculty Name
+        NumberOfSeats
+    The class has a parameterized constructor to initialize an object and the following methods(The object is initialized with the given values[Course name-Java Programming, Faculty Name-Hilda, Numerofseats-0])
+        
+        __Register seat__ - This method will deduct 1 seat from the Numberofseats
+        **Allot_Seats(int Seats)** - This method will get the number of Seats to be allocated and add those seats to Numberofseats.
+    Create the following threads and demonstrate registration and allocation of seats to the course
+        
+        **Thread1** - Will try and register a seat for the Java Programming Course
+        **Thread2** - Will try and register a seat for the Java Programming Course
+        **Thread3** - Will allot 60 seats to the Course
+        **Thread4** - Should print the total remaining Seats after registration is complete.
+        **Thread1** and Thread2 will be in Wait if the value for NumberOfSeats is 0
+        **Threads** will notify other threads after alloting the seats
+
+* A famous bakery in Vellore prepares cakes for their customers. The shop makes cake and stacks it up in a vessel, and the customer buys them. The max capacity of the vessel is 10. If the cakes are emptied, customers wait for the baker to prepare new cakes. Develop a program for the given scenario using inter thread communication concept in Java programming.
+
+
 ## File Handling
 * Write a Java Program to Reverse the Contents of a File and Print it (Use FileInputStream and FileOutputStream) -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/a37e0c01a05081cd44d39c50e7f390694475aa4a/file_handling/DataReverse_FileinputStream.java)
 
