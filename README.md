@@ -16,7 +16,7 @@
                 and displays number of times each stop word occurs in the file.
         Thread2- Reads all words other than stop words from the file2.txt and displays number of times the word that start with Character H is part of the file.
         Tread3- displays Thanks for using our software to the user after the file read operations in Thread1 and Thread2 is complete.
-Use Scanner object to perform file reads and set the Priority for Thread1 as 3, Thread 2 as 2 and Thread3 as 1 in your code. 
+     Use Scanner object to perform file reads and set the Priority for Thread1 as 3, Thread 2 as 2 and Thread3 as 1 in your code. 
 
 
 ## Inter-Thread Communication
