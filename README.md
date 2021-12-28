@@ -1,16 +1,17 @@
 # Java
 ## Class-Objects, Static & Abstracts
 * Consider the class for a course given below
-    Data Members
-      o Course Name 
-      o Course ID 
-      o Course Type (UE, PE or PC)
-      o Offered By (School that offers the course) 
-    Methods
-      o Set_course Details()  -  Method to set data for the object 
-      o search_course Details() - Method receives an array of course objects and searches them 
-      o display_course Details() - display the count of courses based on course type.
-Create an array of five course objects by reading the data from the user. Use the static method search_course Details() to read the array of course objects and count the number of UE, PE and PC courses in the array of course objects. Display the count of UE, PE and PC courses using the display_course Details() method. -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/479834f2ab32c61a222fae76ac4528a98b3bca43/ClassObjects_Static_Abstract/course_in_array.java) 
+    
+        Data Members
+            o Course Name 
+            o Course ID 
+            o Course Type (UE, PE or PC)
+            o Offered By (School that offers the course) 
+        Methods
+            o Set_course Details()  -  Method to set data for the object 
+            o search_course Details() - Method receives an array of course objects and searches them 
+            o display_course Details() - display the count of courses based on course type.
+    Create an array of five course objects by reading the data from the user. Use the static method search_course Details() to read the array of course objects and count the number of UE, PE and PC courses in the array of course objects. Display the count of UE, PE and PC courses using the display_course Details() method. -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/479834f2ab32c61a222fae76ac4528a98b3bca43/ClassObjects_Static_Abstract/course_in_array.java) 
 
 * Consider the class for a mobile phone given below
 
@@ -23,7 +24,7 @@ Create an array of five course objects by reading the data from the user. Use th
             o set_mobileDetails() - Method to set data for the object 
             o sort_mobileDetails() - Method receives an array of mobile phone objects and sorts them 
             o display_mobileDetails() - display the data inside the array of objects.
-Create an array of five mobile phone objects by reading the data from the user. Use the static method sort_mobileDetails to read the array of mobile objects and sort them according to the company name. Display the sorted array of objects using the display_mobileDetails Method. -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/6bb3f77d546c95535f8728dc3c6e5bc487b51ac7/ClassObjects_Static_Abstract/mobile_phone_details.java)
+    Create an array of five mobile phone objects by reading the data from the user. Use the static method sort_mobileDetails to read the array of mobile objects and sort them according to the company name. Display the sorted array of objects using the display_mobileDetails Method. -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/6bb3f77d546c95535f8728dc3c6e5bc487b51ac7/ClassObjects_Static_Abstract/mobile_phone_details.java)
 
 * Sphere, Cylinder, Cone and Cube are classes that inherit from the abstract class shape. Shape has an abstract method compute_volume(). Demonstrate with code on how dynamic polymorphism and upcasting can be used to compute the volume of the different shapes. -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/6bb3f77d546c95535f8728dc3c6e5bc487b51ac7/ClassObjects_Static_Abstract/volume_polymorphism_upcasting.java)
 
@@ -85,7 +86,7 @@ Write a program that receives an array of marks from Professor. If the marks fai
             20 55 
             31 44 55 67 
             87 45 66
-Receive the jagged array in a method and write code to display the number of subjects the student has passed (marks >= 40) and the number of subjects the student has failed (marks <40). __Use an enhanced for loop in the code__ -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/6bb3f77d546c95535f8728dc3c6e5bc487b51ac7/Strings/jagged_array.java)
+    Receive the jagged array in a method and write code to display the number of subjects the student has passed (marks >= 40) and the number of subjects the student has failed (marks <40). __Use an enhanced for loop in the code__ -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/6bb3f77d546c95535f8728dc3c6e5bc487b51ac7/Strings/jagged_array.java)
 
 * Read a sentence from the user and display the count of the word VIT used in the sentence. If the word VIT is not present in the sentence then display the message "No such word in the Sentence" Message -- [Answer_link](https://github.com/aryanchandrakar/Java/blob/6bb3f77d546c95535f8728dc3c6e5bc487b51ac7/Strings/countword.java)
 
