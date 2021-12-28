@@ -50,16 +50,16 @@ Create an array of five mobile phone objects by reading the data from the user. 
         - Add or remove a student from h1 
         - Iterate over the maps and display the key-value pairs stored in them 
         - Given a student name, fetch the names of all those who teach him/her Eg, if the elements of h1 are
-        | Stud name     | Course Registered  | 
-        | ------------- |:-------------------|
-        | A             | Python, maths, C   | 
-        | B             | C, C++             |   
+        | Stud name     | Course Registered  |
+        | ------------- |-------------------:|
+        | A             | Python, maths, C   |
+        | B             | C, C++             |
         | C             | physics, chemistry |
-        
-        | Course name   | Faculty           | 
-        | ------------- |:------------------|
-        | C             | aaa               | 
-        | C++           | bbb               |   
+        -------------------------------------
+        | Course name   | Faculty           |
+        | ------------- |------------------:|
+        | C             | aaa               |
+        | C++           | bbb               |
         | Java          | ccc               |
         | Python        | ddd               |
         --> For student B, it has to display the faculty aaa & bbb.
